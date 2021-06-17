@@ -160,8 +160,8 @@ public class Verify extends javax.swing.JFrame{
             if(result.next()) {
                 JOptionPane.showMessageDialog(null, "OTP Entered is Correct");
                 close();
-                Update update = new Update();
-                update.setVisible(true);
+                Login login = new Login();
+                login.setVisible(true);
             } else {
                 JOptionPane.showMessageDialog(null, "OTP Entered is Incorrect");
                 input_verify.setText("");
